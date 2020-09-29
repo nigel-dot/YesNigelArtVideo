@@ -1,0 +1,431 @@
+/* Some CSS Setup - nothing to do with flexbox */
+html {
+	box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+/* Add some content at the bottom of the video/page */
+.navbar {
+	z-index: 1;
+	display: flex;
+	position: fixed;
+	top: 0;
+	background: rgba(0, 0, 0, 0.5);
+	color: #f1f1f1;
+	width: 100%;
+	padding-right: 40px;
+}
+.navbar ul {
+	display: flex;
+	list-style: none;
+	width: 100%;
+	justify-content: center;
+}
+
+.navbar ul li {
+	margin: 0 1rem;
+	padding: 1rem;
+}
+
+.navbar ul li a {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #f4f4f4;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar ul li a:hover {
+	color: orange;
+}
+a {
+	color: white;
+	font-weight: 100;
+	letter-spacing: 2px;
+	text-decoration: none;
+	padding: 20px 5px;
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	transition: all 0.5s;
+}
+
+.toggleNav {
+	display: none;
+}
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%;
+}
+
+/* Add some content at the bottom of the video/page */
+.content {
+	position: fixed;
+	bottom: 0;
+	background: rgba(0, 0, 0, 0.5);
+	color: #f1f1f1;
+	width: 100%;
+	padding-right: 40px;
+}
+
+h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	font-size: 10vh;
+}
+h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	font-size: 4vh;
+}
+section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	width: 100%;
+	height: 100vh;
+
+	/* Scroll Snap */
+	scroll-snap-align: center;
+}
+
+section h2 {
+	font-size: 20vh;
+}
+.artwork h2 {
+	font-size: 0px;
+}
+section#art1 {
+	background: url("images/Abstract-Art-Converging-Rivers.jpg");
+
+	/* Set a specific height */
+	min-height: 500px;
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+section#art2 {
+	background: url("images/Absract Art - Angry Sea.jpg");
+	/* Set a specific height */
+	min-height: 500px;
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+section#art3 {
+	background: url("images/Abstract Art - Beat ying and yang old.jpg");
+
+	/* Set a specific height */
+	min-height: 500px;
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+section#art4 {
+	background: url("images/Abstract Art - Comparmentalisation.jpg");
+
+	/* Set a specific height */
+	min-height: 500px;
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+section#art5 {
+	background: url("images/Absract Art - Oases.jpg");
+
+	/* Set a specific height */
+	min-height: 500px;
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+section#art6 {
+	background: url("images/Abstract Art - Bug.jpg");
+
+	/* Set a specific height */
+	min-height: 500px;
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+section#art7 {
+	background: url("images/Abstract Art - Milky way.jpg");
+
+	/* Set a specific height */
+	min-height: 500px;
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+section#art8 {
+	background: url("images/Abstract Art - Window to the soul.jpg");
+
+	/* Set a specific height */
+	min-height: 500px;
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+section#art9 {
+	background: url("images/Abstract Art - Music and Money.jpg");
+
+	/* Set a specific height */
+	min-height: 500px;
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+section#art10 {
+	background: url("images/Absract Art - Bush Fire.jpg");
+
+	/* Set a specific height */
+	min-height: 500px;
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+section#art11 {
+	background: url("images/Abstract art - Temple.jpg");
+
+	/* Set a specific height */
+	min-height: 500px;
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+section#art12 {
+	background: url("images/Absract Art - Windmills of your mind.jpg");
+
+	/* Set a specific height */
+	min-height: 500px;
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+section#art13 {
+	background: url("images/Absract Art - Light at the end of the tunnel.jpg");
+
+	/* Set a specific height */
+	min-height: 500px;
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+section#art14 {
+	background: url("images/Abstract Art - Mist.jpg");
+
+	/* Set a specific height */
+	min-height: 500px;
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+section#art15 {
+	background: url("images/Abstract Art - Social Media.jpg");
+
+	/* Set a specific height */
+	min-height: 500px;
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+section#art16 {
+	background: url("images/Absract Art - Blue Koala.jpg");
+
+	/* Set a specific height */
+	min-height: 500px;
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+section#art17 {
+	background: url("images/Abstract Art - Avocadi.jpg");
+
+	/* Set a specific height */
+	min-height: 500px;
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.headingOn h2 {
+	color: white;
+	background-color: rgba(0, 0, 0, 0.5);
+
+	font-size: 3rem;
+}
+.contactLink h1 a {
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	font-size: 10vh;
+	text-decoration: none;
+}
+.contactLink a {
+	display: flex;
+	font-size: 24px;
+	font-family: Arial, Helvetica, sans-serif;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	padding-bottom: 30px;
+
+	color: white;
+	text-decoration: none;
+}
+.contactLink a:hover {
+	color: orange;
+}
+/* Flex Container */
+.flex-nav ul {
+	border: 1px solid black;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+/* Flex Item */
+.flex-nav li {
+	flex: 3;
+}
+
+.flex-nav .social {
+	flex: 1;
+}
+
+/* Nav changes when scaled down to 600px */
+@media all and (max-width: 600px) {
+	.flex-nav ul {
+		flex-wrap: wrap;
+	}
+
+	.flex-nav li {
+		flex: 1 1 15%;
+	}
+
+	.flex-nav .social {
+		flex: 1 1 30%;
+	}
+	h1 {
+		font-family: Arial, Helvetica, sans-serif;
+		text-align: center;
+		font-size: 5vh;
+	}
+	h2 {
+		font-family: Arial, Helvetica, sans-serif;
+		text-align: center;
+		font-size: 3vh;
+	}
+	.headingOn h2 {
+		color: white;
+		background-color: rgba(0, 0, 0, 0.5);
+
+		font-size: 2rem;
+	}
+}
+
+/* Order changes when scaled down to 500px */
+
+@media all and (max-width: 500px) {
+	.flex-nav li {
+		flex-basis: 100%;
+	}
+
+	/* Turn on flexbox */
+	/* .wrapper {
+		display: flex;
+		flex-direction: row;
+	} */
+
+	/* Reorder items */
+	.wrapper > * {
+		order: 999;
+	}
+
+	/* Nav */
+	.flex-nav {
+		order: 1;
+	}
+
+	.toggleNav {
+		display: block;
+	}
+
+	.flex-nav ul {
+		display: none;
+	}
+	.flex-nav ul.open {
+		display: flex;
+	}
+	h1 {
+		font-family: Arial, Helvetica, sans-serif;
+		text-align: center;
+		font-size: 5vh;
+	}
+	h2 {
+		font-family: Arial, Helvetica, sans-serif;
+		text-align: center;
+		font-size: 3vh;
+	}
+	.headingOn h2 {
+		color: white;
+		background-color: rgba(0, 0, 0, 0.5);
+
+		font-size: 2rem;
+	}
+
+	/* Header */
+	/* .hero {
+		order: 2;
+	} */
+
+	/* Details */
+	/* .artwork {
+		order: 3;
+	} */
+}
