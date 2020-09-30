@@ -369,9 +369,9 @@ section#art17 {
 	}
 }
 
-/* Order changes when scaled down to 500px */
+/* Order changes when scaled down to 520px */
 
-@media all and (max-width: 500px) {
+@media only screen and (max-width: 520px) {
 	.flex-nav li {
 		flex-basis: 100%;
 	}
