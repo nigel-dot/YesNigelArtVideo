@@ -368,7 +368,9 @@ section#art17 {
 		font-size: 2rem;
 	}
 }
-@media all and (max-width: 500px) {
+
+/* Nav changes - hamburger toggle menu when scaled down to 520px */
+@media all and (max-width: 520px) {
 	.flex-nav li {
 		flex-basis: 100%;
 	}
