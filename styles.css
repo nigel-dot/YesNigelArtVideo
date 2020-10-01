@@ -105,217 +105,59 @@ section h2 {
 	font-size: 0px;
 }
 section#art1 {
-	background: url("images/Abstract-Art-Converging-Rivers.jpg");
-
-	/* Set a specific height */
-	min-height: 500px;
-	/* Create the parallax scrolling effect */
-
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: contain;
-	background-position-x: 50%;
-	background-position-y: 0%;
+	background-image: url("images/Abstract-Art-Converging-Rivers.jpg");
 }
 
 section#art2 {
-	background: url("images/Absract Art - Angry Sea.jpg");
-	/* Set a specific height */
-	min-height: 500px;
-	/* Create the parallax scrolling effect */
-
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: contain;
-	background-position-x: 50%;
-	background-position-y: 0%;
+	background-image: url("images/Absract Art - Angry Sea.jpg");
 }
 section#art3 {
-	background: url("images/Abstract Art - Beat ying and yang old.jpg");
-
-	/* Set a specific height */
-	min-height: 500px;
-	/* Create the parallax scrolling effect */
-
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: contain;
-	background-position-x: 50%;
-	background-position-y: 0%;
+	background-image: url("images/Abstract Art - Beat ying and yang old.jpg");
 }
 section#art4 {
-	background: url("images/Abstract Art - Comparmentalisation.jpg");
-
-	/* Set a specific height */
-	min-height: 500px;
-	/* Create the parallax scrolling effect */
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: contain;
-	background-position-x: 50%;
-	background-position-y: 0%;
+	background-image: url("images/Abstract Art - Comparmentalisation.jpg");
 }
 section#art5 {
-	background: url("images/Absract Art - Oases.jpg");
-
-	/* Set a specific height */
-	min-height: 500px;
-	/* Create the parallax scrolling effect */
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: contain;
-	background-position-x: 50%;
-	background-position-y: 0%;
+	background-image: url("images/Absract Art - Oases.jpg");
 }
 section#art6 {
-	background: url("images/Abstract Art - Bug.jpg");
-
-	/* Set a specific height */
-	min-height: 500px;
-	/* Create the parallax scrolling effect */
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: contain;
-	background-position-x: 50%;
-	background-position-y: 0%;
+	background-image: url("images/Abstract Art - Bug.jpg");
 }
 section#art7 {
-	background: url("images/Abstract Art - Milky way.jpg");
-
-	/* Set a specific height */
-	min-height: 500px;
-	/* Create the parallax scrolling effect */
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: contain;
-	background-position-x: 50%;
-	background-position-y: 0%;
+	background-image: url("images/Abstract Art - Milky way.jpg");
 }
 section#art8 {
-	background: url("images/Abstract Art - Window to the soul.jpg");
-
-	/* Set a specific height */
-	min-height: 500px;
-	/* Create the parallax scrolling effect */
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: contain;
-	background-position-x: 50%;
-	background-position-y: 0%;
+	background-image: url("images/Abstract Art - Window to the soul.jpg");
 }
 
 section#art9 {
-	background: url("images/Abstract Art - Music and Money.jpg");
-
-	/* Set a specific height */
-	min-height: 500px;
-	/* Create the parallax scrolling effect */
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: contain;
-	background-position-x: 50%;
-	background-position-y: 0%;
+	background-image: url("images/Abstract Art - Music and Money.jpg");
 }
 section#art10 {
-	background: url("images/Absract Art - Bush Fire.jpg");
-
-	/* Set a specific height */
-	min-height: 500px;
-	/* Create the parallax scrolling effect */
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: contain;
-	background-position-x: 50%;
-	background-position-y: 0%;
+	background-image: url("images/Absract Art - Bush Fire.jpg");
 }
 section#art11 {
-	background: url("images/Abstract art - Temple.jpg");
-
-	/* Set a specific height */
-	min-height: 500px;
-	/* Create the parallax scrolling effect */
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: contain;
-	background-position-x: 50%;
-	background-position-y: 0%;
+	background-image: url("images/Abstract art - Temple.jpg");
 }
 section#art12 {
-	background: url("images/Absract Art - Windmills of your mind.jpg");
-
-	/* Set a specific height */
-	min-height: 500px;
-	/* Create the parallax scrolling effect */
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: contain;
-	background-position-x: 50%;
-	background-position-y: 0%;
+	background-image: url("images/Absract Art - Windmills of your mind.jpg");
 }
 section#art13 {
-	background: url("images/Absract Art - Light at the end of the tunnel.jpg");
-
-	/* Set a specific height */
-	min-height: 500px;
-	/* Create the parallax scrolling effect */
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: contain;
-	background-position-x: 50%;
-	background-position-y: 0%;
+	background-image: url("images/Absract Art - Light at the end of the tunnel.jpg");
 }
 section#art14 {
-	background: url("images/Abstract Art - Mist.jpg");
-
-	/* Set a specific height */
-	min-height: 500px;
-	/* Create the parallax scrolling effect */
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: contain;
-	background-position-x: 50%;
-	background-position-y: 0%;
+	background-image: url("images/Abstract Art - Mist.jpg");
 }
 section#art15 {
-	background: url("images/Abstract Art - Social Media.jpg");
-
-	/* Set a specific height */
-	min-height: 500px;
-	/* Create the parallax scrolling effect */
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: contain;
-	background-position-x: 50%;
-	background-position-y: 0%;
+	background-image: url("images/Abstract Art - Social Media.jpg");
 }
 section#art16 {
-	background: url("images/Absract Art - Blue Koala.jpg");
-
-	/* Set a specific height */
-	min-height: 500px;
-	/* Create the parallax scrolling effect */
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: contain;
-	background-position-x: 50%;
-	background-position-y: 0%;
+	background-image: url("images/Absract Art - Blue Koala.jpg");
 }
 section#art17 {
-	background: url("images/Abstract Art - Avocadi.jpg");
-
+	background-image: url("images/Abstract Art - Avocadi.jpg");
+}
+.artwork {
 	/* Set a specific height */
 	min-height: 500px;
 	/* Create the parallax scrolling effect */
@@ -323,8 +165,6 @@ section#art17 {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: contain;
-	background-position-x: 50%;
-	background-position-y: 0%;
 }
 
 .headingOn h2 {
@@ -417,4 +257,7 @@ section#art17 {
 	.flex-nav ul.open {
 		display: flex;
 	}
+	/* section.artwork {
+		background-attachment: initial;
+	} */
 }
