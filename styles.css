@@ -257,7 +257,7 @@ section#art17 {
 	.flex-nav ul.open {
 		display: flex;
 	}
-	/* section.artwork {
+	section.artwork {
 		background-attachment: initial;
-	} */
+	}
 }
