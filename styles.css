@@ -368,3 +368,17 @@ section#art17 {
 		font-size: 2rem;
 	}
 }
+@media all and (max-width: 500px) {
+	.flex-nav li {
+		flex-basis: 100%;
+	}
+	.toggleNav {
+		display: block;
+	}
+	.flex-nav ul {
+		display: none;
+	}
+	.flex-nav ul.open {
+		display: flex;
+	}
+}
